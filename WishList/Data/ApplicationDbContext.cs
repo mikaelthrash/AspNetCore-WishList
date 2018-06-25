@@ -1,6 +1,7 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
 
-namespace Microsoft.EntityFrameworkCore
+namespace WishList.Data
 {
     public class AplicationDbContext : DbContext
     {
