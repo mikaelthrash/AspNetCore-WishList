@@ -10,8 +10,10 @@ using Microsoft.Extensions.Logging;
 
 namespace WishList
 {
+
     public class Program
     {
+        //This is a comment@ Mikael Thrash
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
