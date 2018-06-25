@@ -1,10 +1,13 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore;
 
-public class AplicationDbContext : DbContext
+namespace Microsoft.EntityFrameworkCore
 {
-    public AplicationDbContext(DbContextOptions options) : base(options)
+    public class AplicationDbContext : DbContext
     {
+        public AplicationDbContext(DbContextOptions options) : base(options)
+        {
 
+        }
     }
 }
+
