@@ -1,8 +1,10 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
 
-public class Class1
+public class ApplicationDbContext : DbContext
 {
-	public Class1()
-	{
-	}
+    public ApplicationDbContext(DbContextOptions options) : base(options)
+    {
+
+    }
 }
